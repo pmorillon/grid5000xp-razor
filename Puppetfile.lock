@@ -1,0 +1,37 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    puppetlabs/apt (1.1.0)
+      puppetlabs/stdlib (>= 2.2.1)
+    puppetlabs/mongodb (0.1.0)
+      puppetlabs/apt (>= 0.0.2)
+    puppetlabs/nodejs (0.2.1)
+      puppetlabs/apt (>= 0.0.3)
+      puppetlabs/stdlib (>= 2.0.0)
+    puppetlabs/razor (0.4.1)
+      puppetlabs/mongodb (>= 0.1.0)
+      puppetlabs/nodejs (>= 0.1.1)
+      puppetlabs/ruby (>= 0.0.2)
+      puppetlabs/stdlib (>= 2.0.0)
+      puppetlabs/tftp (>= 0.2.0)
+      puppetlabs/vcsrepo (>= 0.0.5)
+      saz/sudo (>= 2.0.0)
+    puppetlabs/ruby (0.0.2)
+    puppetlabs/stdlib (3.2.0)
+    puppetlabs/tftp (0.2.1)
+      puppetlabs/xinetd (>= 1.1.0)
+    puppetlabs/vcsrepo (0.1.1)
+    puppetlabs/xinetd (1.1.0)
+    saz/sudo (2.2.0)
+
+GIT
+  remote: git://github.com/pmorillon/puppet-puppet.git
+  ref: 0.0.2
+  sha: fa1a30f3571a3f4c9af9d19900717fbd62a4b9bf
+  specs:
+    puppet ()
+
+DEPENDENCIES
+  puppet (>= 0)
+  puppetlabs/razor (= 0.4.1)
+
