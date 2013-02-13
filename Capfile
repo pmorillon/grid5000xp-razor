@@ -30,7 +30,7 @@ namespace :xp do
   before "xp:run", :deploy
   before "xp:run", :sync
   before "xp:run", "install:puppet"
-  before "xp:run", "provision:server"
+  before "xp:run", "provision:razor"
 
   desc "Running Razor experiment"
   task :run do
